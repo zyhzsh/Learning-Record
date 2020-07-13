@@ -1,22 +1,16 @@
 # Summer Vacation Self-Learning
-## GIT
-
-## Python
-
-## HTML CSS Javascript
-
-## Web Application
-
-
-
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
+-GIT
+1.![Image](https://github.com/zyhzsh/Learning-Record/blob/SummerVacation_1/Git/INTRO%20GIT.pdf)
+```
+-Python
+1.![Image](https://github.com/zyhzsh/Learning-Record/blob/SummerVacation_1/Pythone/py4e5course.pdf)
+2.![Image](https://github.com/zyhzsh/Learning-Record/blob/SummerVacation_1/Pythone/py4ehonors.pdf)
+```
+-HTML CSS Javascript
+1.
+```
+-Web Application
+1.
 
 [Link](url) and ![Image](src)
-```
+
