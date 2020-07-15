@@ -1,0 +1,14 @@
+.title{
+  color: blue;
+  font-family: Courier,Impact,Arial;
+  font-size: 120%;
+  background-color: #B3B3B3;
+  text-align: center;
+  line-height: 1000%;
+}
+#p1{
+  color: red;
+  text-align: center;
+  background-color: blue;
+  line-height: 60%;
+}
