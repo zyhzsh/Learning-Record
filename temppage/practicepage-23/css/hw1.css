@@ -1,0 +1,115 @@
+body{
+  width: 95%;
+  margin: 2% auto;
+	box-sizing: border-box;
+}
+
+header{
+  background-image: url(../images/flywheel.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 270px;
+}
+h1{
+  text-align: center;
+  color: #ffffff;
+  text-transform:uppercase;
+  padding-top: 25px;
+  margin-bottom: 30px;
+  font-size: 160%;
+}
+nav{
+  text-align: center;
+}
+nav a{
+  font-weight: bold;
+  background-color:#fff;
+  border-radius: 10px;
+  color: #000;
+  display: inline-block;
+  width: 18%;
+  height:40px;
+	margin-top: 30px;
+  padding-top: 25px;
+  margin-left: 3.6%;
+  background-color: rgba(255,255,255,0.2);
+	text-decoration: none;
+}
+
+nav a:hover{
+  background-color: rgba(255,255,255,1);
+}
+.active{
+  background-color: rgba(255,255,255,1);
+}
+
+.left{
+  display: inline-block;
+  width: 24%;
+  height: 100vh;
+  background-color: #5d783b;
+}
+
+.left a{
+  display: inline-block;
+  width: 80%;
+  height: 18vh;
+  background: black;
+  margin-top: 50px;
+  margin-left: 10%;
+  float: left;
+}
+
+.left img{
+  border: 1px solid #000;
+  width:100%;
+  height: 200px;
+}
+
+
+.right{
+  display: block;
+  float: right;
+  width: 76%;
+}
+
+p{
+  font-size: 150%;
+}
+/* Team page Table*/
+table{
+  box-sizing: border-box;
+  width: 800px;
+  margin-left: 8%;
+  font-size: 140%;
+}
+table tr {
+  opacity: 0.8;
+}
+table tr>th{
+  background-color: #4e9160;
+  text-align: left;
+  color:#fff;
+  padding: 10px;
+  -webkit-border-radius: 5px 5px 0 0;
+  border-radius: 5px 5px 0 0;
+  border: 1px solid black;
+}
+table tr{
+  text-align: center;
+}
+
+table tr:first-child{
+  opacity: 1;
+}
+table tr td{
+  padding: 10px;
+  color:#637568;
+  background:#97baa1;
+}
+table tr td:first-child{
+  text-align: left;
+}
+tr:hover{
+  opacity: 1;
+}
