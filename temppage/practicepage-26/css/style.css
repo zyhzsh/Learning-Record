@@ -1,0 +1,23 @@
+.closed{
+		display: none;
+
+}
+.open{
+		display: block;
+  background: red;
+}
+}
+
+button{
+			width:150px;
+  			background-color: #00CCEE;
+  			margin-left:15px;
+  			font-size:120%;
+  		}
+
+#demo{
+  		color:blue;
+
+      padding:10px;
+      font-size:120%
+}
