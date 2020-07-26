@@ -1,13 +1,15 @@
 function checkme(message)
 {
-  switch (message) {
-    case "Experience":
-      x=document.getElementById("Experience");
-      unfade(x);
-      break;
-    default:
-
-  }
+  x=document.getElementById('Home');
+  x.style.display="none";
+  x=document.getElementById('Experience');
+  x.style.display="none";
+  x=document.getElementById('SkillProject');
+  x.style.display="none";
+  x=document.getElementById('Contact');
+  x.style.display="none";
+  g=document.getElementById(message);
+  unfade(g);
 }
 
 

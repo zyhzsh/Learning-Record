@@ -18,7 +18,7 @@ body {
 h1,h2,h3{
   color:#fff;
 }
-section{
+#Experience , #SkillProject , #Contact {
   display: none;
 }
 
@@ -193,12 +193,11 @@ nav>ul>li>a:hover::after {
     width: 100%;
   }
   nav{
-    font-size: 200%;
+    font-size: 180%;
   }
   .shortintro>ul{
-    font-size: 200%;
+    font-size: 180%;
   }
-
   @keyframes slideLeft {
     to {
       left: -6%;
