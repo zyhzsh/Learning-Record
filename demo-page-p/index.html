@@ -4,7 +4,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="css/style.css">
-    <script type="text/javascript" src="js/jsfile.js"> </script>
+    <script src="https://kit.fontawesome.com/7beb03d50e.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/jsfile.js"></script>
 
     <title>Portfolio</title>
   </head>
@@ -16,59 +17,88 @@
           <div class="reveal"><h2>Hi, It's Sheng Hang Zhu</h2></div>
         </div>
         <div class="Portrait col-lg-12 col-md-12">
-          <img src="imgs/unnamed.jpg">
+            <img src="imgs/unnamed.jpg" onclick="checkinfo()"><div id="info">ashdiashdiadasd <br>iasjdoasijd</div>
         </div>
-          <nav class="col-lg-12 col-md-12">
+          <nav class="homenav col-lg-12 col-md-12">
             <ul>
-              <li><a href="#" onclick="checkme('Experience')">Work Experience</a></li>
-              <li><a href="#" onclick="checkme('SkillProject')">Skill And Project</a></li>
-              <li><a href="#" onclick="checkme('Contact')">Contact me</a></li>
+              <li><a href="#" onclick="checkme('Resume')">Resume</a></li>
+              <li><a href="#" onclick="checkme('SkillProject')">Project</a></li>
+              <li><a href="#" onclick="checkme('Contact')">Contact</a></li>
             </ul>
         </nav>
       </div>
       <div class="shortintro col-lg-12">
           <ul>
-        <li><h1 class="title slide-bar">Current Status:</h1></li>
+        <li><h3 class="title slide-bar">Current Status:</h3></li>
         <li><p class="subtitle slide-bar">Studying Software Engineering at Fontys University</p></li>
-        <li><h1 class="title slide-bar">Language:</h1></li>
+        <li><h3 class="title slide-bar">Language:</h3></li>
         <li><p class="subtitle slide-bar">Chinese ( First language) 、English (B2) 、Dutch （A2）</p></li>
           </ul>
       </div>
     </header>
-    <section id="Experience" class="col-lg-12 col-md-12">
+    <section id="Resume" class="col-lg-12 col-md-12">
+      <nav class="experience-nav">
+        <button class="btn btn-primary btn-ghost btn-shine" onclick="checkme('SkillProject')">Project</button>
+        <button class="btn btn-primary btn-ghost btn-shine" onclick="checkme('Home')">Home</button>
+        <button class="btn btn-primary btn-ghost btn-shine" onclick="checkme('Contact')">Contact</button>
+      </nav>
         <h1>Work Experience</h1>
         <p>2020 Work on .....</p>
         <p>2019 bla..bla..bla..</p>
         <p>2018 bla..bla..bla..</p>
         <p>2017 bla..bla..</p>
-        <nav class="">
-          <ul>
-            <li><a href="#" onclick="checkme('Home')">Home</a></li>
-            <li><a href="#" onclick="checkme('SkillProject')">Skill And Project</a></li>
-            <li><a href="#" onclick="checkme('Contact')">Contact me</a></li>
-          </ul>
-      </nav>
     </section>
 
-    <section id="SkillProject">SkillProject...
-      <nav class="">
-        <ul>
-          <li><a href="#" onclick="checkme('Home')">Home</a></li>
-          <li><a href="#" onclick="checkme('Experience')">Work Experience</a></li>
-          <li><a href="#" onclick="checkme('Contact')">Contact me</a></li>
-        </ul>
+    <section id="SkillProject">
+
+
+
+      <nav class="skill-nav">
+          <button class="btn btn-primary btn-ghost btn-shine" onclick="checkme('Resume')">Resume</button>
+          <button class="btn btn-primary btn-ghost btn-shine" onclick="checkme('Home')">Home</button>
+          <button class="btn btn-primary btn-ghost btn-shine" onclick="checkme('Contact')">Contact</button>
       </nav>
+
+
+      <div class="center col-lg-10">
+      <h1>Software skill</h1>
+        <div class="skillBox col-lg-3">
+          <p>HTML5</p>
+          <div class="skill">
+            <div class="skill_level" style="width:90%">
+            </div>
+          </div>
+        </div>
+        <div class="skillBox col-lg-3">
+        <p>HTML5、CSS3、Javascript</p>
+        <div class="skill">
+          <div class="skill_level" style="width:38%">
+          </div>
+        </div>
+      </div>
+      <div class="skillBox col-lg-3">
+        <p>HTML5</p>
+        <div class="skill">
+          <div class="skill_level" style="width:90%">
+          </div>
+        </div>
+      </div>
+      <div class="skillBox col-lg-3">
+        <p>HTML5</p>
+        <div class="skill">
+          <div class="skill_level" style="width:90%">
+          </div>
+        </div>
+      </div>
+      </div>
     </section>
-
-
-    <section id="Contact">Contact...
-      <nav class="">
-        <ul>
-          <li><a href="#" onclick="checkme('Home')">Home</a></li>
-          <li><a href="#" onclick="checkme('Experience')">Work Experience</a></li>
-          <li><a href="#" onclick="checkme('SkillProject')">Skill And Project</a></li>
-        </ul>
+    <section id="Contact">
+      <nav class="contact-nav">
+          <button class="btn btn-primary btn-ghost btn-shine" onclick="checkme('Resume')">Resume</button>
+          <button class="btn btn-primary btn-ghost btn-shine" onclick="checkme('Home')">Home</button>
+          <button class="btn btn-primary btn-ghost btn-shine" onclick="checkme('SkillProject')">Project</button>
       </nav>
+
     </section>
 
 

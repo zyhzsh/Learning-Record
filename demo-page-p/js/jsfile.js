@@ -2,7 +2,7 @@ function checkme(message)
 {
   x=document.getElementById('Home');
   x.style.display="none";
-  x=document.getElementById('Experience');
+  x=document.getElementById('Resume');
   x.style.display="none";
   x=document.getElementById('SkillProject');
   x.style.display="none";
@@ -10,11 +10,16 @@ function checkme(message)
   x.style.display="none";
   g=document.getElementById(message);
   unfade(g);
+  x=document.getElementById('Home');
+    if(x.style.display=="none"){
+      x=document.getElementsByTagName('body');
+      x[0].style['align-items']="unset";
+    }
+    else {
+      x=document.getElementsByTagName('body');
+      x[0].style['align-items']="center";
+    }
 }
-
-
-
-
 
 function unfade(element) {
     var op = 0.1;  // initial opacity
@@ -26,7 +31,7 @@ function unfade(element) {
         element.style.opacity = op;
         element.style.filter = 'alpha(opacity=' + op * 100 + ")";
         op += op * 0.1;
-    }, 10);
+    }, 50);
 }
 function fade(element) {
     var op = 1;  // initial opacity
@@ -39,4 +44,24 @@ function fade(element) {
         element.style.filter = 'alpha(opacity=' + op * 100 + ")";
         op -= op * 0.1;
     }, 50);
+}
+
+var infoswitch=true;
+function checkinfo (){
+  switch(infoswitch){
+    case true:showinfo();infoswitch=false;break;
+    case false:eclipseinfo();infoswitch=true;break;
+    default:break;
+  }
+}
+
+
+function showinfo(){
+  x=document.getElementById('info');
+  unfade(x);
+}
+
+function eclipseinfo(){
+  x=document.getElementById('info');
+  fade(x);
 }
